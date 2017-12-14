@@ -1,0 +1,24 @@
+<nav class="grey lighten-2">
+<!-- by assigning the role its a form of validation for all the javascript  functionalities-->
+	<div class="nav-wrapper container row">
+    	<a href="index.html" class="brand-logo"><img src="crest.png" width="100" height="64" alt="Air Wave Max"></a>
+        <ul class="right hide-on-med-and-down">
+<li><a href="about.html">About Us</a></li>
+    <li><a href="parents.html">Parent Information</a></li>
+    <li><a href="pdoaa.html">PDOAA</a></li>
+    <li><a href="rush.html">Rush</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    <li><a href="http://www.facebook.com/rthierman4" target="_blank"><img src ="facebook_icon.png" alt="Facebook" /></a></li>
+    <li><a href="http://twitter.com/rthierman4" target="_blank"><img src ="twitter_icon.png" alt="Twitter" /></a></li>
+      </ul>
+        <ul id="nav-mobile" class="side-nav">
+<li><a href="about.html">About Us</a></li>
+    <li><a href="parents.html">Parent Information</a></li>
+    <li><a href="pdoaa.html">PDOAA</a></li>
+    <li><a href="rush.html">Rush</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    <li><a href="http://www.facebook.com/rthierman4" target="_blank"><img src ="facebook_icon.png" alt="Facebook" /></a></li>
+    <li><a href="http://twitter.com/rthierman4" target="_blank"><img src ="twitter_icon.png" alt="Twitter" /></a></li>
+        </ul> 
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons black-text">menu</i></a>       
+  </div>

@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="author" content="Juan Nunez">
+<meta name="description" content="Buying Shoes">
+<meta name="keywords" content="Shoes, men, women, boys, girls">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+<TITLE>Air Wave Max</TITLE>
+</head>
+<body>
+<div id="main">
+<nav class="white" >
+<!-- by assigning the role its a form of validation for all the javascript  functionalities-->
+  <div class="nav-wrapper container">
+      <a href="index.html" class="brand-logo"><img src="images/logo.png" width="100" height="64"></a>
+        <ul class="right hide-on-med-and-down">
+        <li><a href="men.html">Men</a></li>
+        <li><a href="women.html">Women</a></li>
+        <li><a href="boys.html">Boys</a></li>
+        <li><a href="girls.html">Girls</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a class='dropdown-button' href='#' data-activates='dropdown1' constrainwidth="true">Parent Website</a>
+          <ul id='dropdown1' class='dropdown-content'>
+            <li><a href="http://www.adidas.com" target="_blank" onmouseover="document.rollover.src='images/Roll/adidasoriginals_OFF.jpg'" onmouseout="document.rollover.src='images/Roll/adidasoriginals_ON.jpg'">
+<img src="images/Roll/adidasoriginals_OFF.jpg" alt="a rollover" id="rollover" name="rollover" /></a></li>
+
+          </ul>
+      </ul>
+        <ul id="nav-mobile" class="side-nav">
+        <li><a href="men.html">Men</a></li>
+        <li><a href="women.html">Women</a></li>
+        <li><a href="boys.html">Boys</a></li>
+        <li><a href="girls.html">Girls</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        </ul> 
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons black-text">menu</i></a>       
+  </div>
+  <div class="container black-text">
+    <h3 class="black-text"> Product Review</h3>
+       <form action="mailto:nunezJ@alfredstate.edu" method="post" encoding="utf-8" enctype="plain/text">
+      <div class="row">
+        <div class="input-field col s12">
+          <input placeholder="Product Name" id="product_name" type="text" class="validate">
+          <label for="product_name"></label>
+        <div class="input-field col s6">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Name</label>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix">phone</i>
+          <input id="icon_telephone" type="tel" class="validate">
+          <label for="icon_telephone">#</label>
+        </div>
+      </div>
+      <h5 class="black-text">How Good Was The Product?</h5>
+  <label>Overall Rating</label>
+  <select class="browser-default black-text">
+    <option value="" disabled selected>Choose your option</option>
+    <option value="1">Bad</option>
+    <option value="2">Good</option>
+    <option value="3">On Fire</option>
+  </select>
+        <h5 class="black-text">Recomend to a Friend?</h5>
+  <select class="browser-default black-text">
+    <option value="" disabled selected>Choose your option</option>
+    <option value="1">No</option>
+    <option value="2">Yes</option>
+  </select>
+
+    <div class="row black-text">
+  
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea" ></textarea>
+          <label for="textarea1">Write Review</label>
+        </div>
+      </div>
+     <p><input type="submit" value="Send" /></p>
+    <p><input type="reset" value="Reset" /></p>
+    </form>
+
+
+   
+</div>
+
+
+
+
+ 
+</nav>
+
+</div>
+        <footer class="page-footer black">
+          <nav class="black">
+         <div class="container">
+            <div class="row">
+              <div class="col s12 m4">
+
+                <i class="medium material-icons">contacts</i> 
+                <p>Call us 1.800.256.9658</p>
+              </div>
+              <div class="col s12 m4">
+
+                <a href="contact.html"><i class="medium material-icons">email</i>
+                <p>Contact us</p></a> 
+              </div>
+              <div class="col s12 m4">
+
+                <a href="feedback.html"><i class="medium material-icons">feedback</i> 
+                <p>Leave us with some feedback!!</p></a>
+              </div>
+
+             
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2015 Air Wave Max
+            </div>
+          </nav>
+          </div>
+        </footer>
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+</body>
+
+
+</html>

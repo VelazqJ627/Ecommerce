@@ -1,0 +1,60 @@
+GIRLS' GRADE SCHOOL NIKE ROSHE ONE
+48.99
+
+details
+Simplicity at its finest.
+<ol>
+Innovative, lightweight, running shoe.
+Upper made of a mix of lightweight and very breathable materials.
+Full-length Phylon™ midsole with a solarsoft sockliner for premium comfort, and a rubber outsole for traction.n.
+
+Size and Fit 
+Fir Alert:Item runs true to size. Order your normal size
+
+GIRLS' GRADE SCHOOL NIKE ROSHE ONE
+
+details
+art of Nike's "All-Conditions Gear" collection, the Nike ACG Woodside is a versatile boot made for hiking, winter walking and any other outdoor activity you decide to enjoy. The sticky rubber sole with lug tread keeps you from slipping away while the synthetic leather and rubber upper protects your feet from the elements.
+
+Size and Fit 
+Fir Alert:Item runs true to size. Order your normal size
+
+<form action="mailto:nunezJ@alfredstate.edu" method="post" encoding="utf-8" enctype="plain/text">
+      <div class="row">
+        <div class="input-field col s6">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix"></label>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix">phone</i>
+          <input id="icon_telephone" type="tel" class="validate">
+          <label for="icon_telephone"></label>
+        </div>
+      </div>
+      <h5 class="black-text">How Good Was The Product?</h5>
+  <label>Overall Rating</label>
+  <select class="browser-default black-text">
+    <option value="" disabled selected>Choose your option</option>
+    <option value="1">Bad</option>
+    <option value="2">Good</option>
+    <option value="3">On Fire</option>
+  </select>
+        <h5 class="black-text">Recomend to a Friend?</h5>
+  <select class="browser-default black-text">
+    <option value="" disabled selected>Choose your option</option>
+    <option value="1">No</option>
+    <option value="2">Yes</option>
+  </select>
+
+    <div class="row black-text">
+  
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Write Review</label>
+        </div>
+      </div>
+     <p><input type="submit" value="Send" /></p>
+    <p><input type="reset" value="reset" /></p>
+    </form>

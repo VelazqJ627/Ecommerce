@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="author" content="Juan Nunez">
+<meta name="description" content="Buying Shoes">
+<meta name="keywords" content="Shoes, men, women, boys, girls">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script type="text/javascript" src="../simpleCart.js"></script>
+<TITLE>Air Wave Max</TITLE>
+</head>
+<body>
+<nav class="white" >
+<!-- by assigning the role its a form of validation for all the javascript  functionalities-->
+  <div class="nav-wrapper container">
+      <a href="index.html" class="brand-logo"><img src="images/logo.png" width="100" height="64"></a>
+        <ul class="right hide-on-med-and-down">
+        <li><a href="men.html">Men</a></li>
+        <li><a href="women.html">Women</a></li>
+        <li><a href="boys.html">Boys</a></li>
+        <li><a href="girls.html">Girls</a></li>
+        <li><a href="cart.html">Cart</a></li>
+                <li><a class='dropdown-button' href='#' data-activates='dropdown1' constrainwidth="true">Parent Website</a>
+          <ul id='dropdown1' class='dropdown-content'>
+            <li><a href="http://www.adidas.com" target="_blank" onmouseover="document.rollover.src='images/Roll/adidasoriginals_OFF.jpg'" onmouseout="document.rollover.src='images/Roll/adidasoriginals_ON.jpg'">
+<img src="images/Roll/adidasoriginals_OFF.jpg" alt="a rollover" id="rollover" name="rollover" /></a></li>
+
+          </ul>
+      </ul>
+        <ul id="nav-mobile" class="side-nav">
+        <li><a href="men.html">Men</a></li>
+        <li><a href="women.html">Women</a></li>
+        <li><a href="boys.html">Boys</a></li>
+        <li><a href="girls.html">Girls</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="#details" class="black-text">Details</a></li>
+    <li><a href="#2" class="black-text">Compare Prices</a></li>
+        </ul> 
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons black-text">menu</i></a>       
+  </div>
+
+<nav class="black">
+  <ul class="right hide-on-med-and-down">
+    <li><a href="#details" class="white-text">Details</a></li>
+    <li><a href="#2" class="white-text">Compare Prices</a></li>
+  </ul>
+</nav>
+    <div class="simpleCart_shelfItem black-text">
+ >
+ <div class="row">
+    <div class="img"><img class="materialboxed col 4" width="550" src="images/Men/Kobe.png" alt="NIKE LEBRON XIII"></div>
+              <div id="product_info">
+                
+
+     <h6 class="black-text  ">Men's</h6>
+     <h4 class="black-text item_name ">NIKE LEBRON XIII</h3>
+      <a class="waves-effect waves-light btn-large " href="review.html">Write a Review</a>
+
+             <a class="item_add waves-effect waves-light btn-large" href="javascript:;" onclick="simpleCart.save();"> Add to Cart </a>
+             
+     <h4><span class="item_price black-text">$115.99</span></h4>
+         <h4 class="black-text item_Quantity">Quantity<input type="text" value="1" class="item_Quantity"></h4>
+
+ <div class="input-field col 6 black-text" id="size">
+    <select class="item_size">
+      <option value="" disabled selected>size</option>
+      <option value="7.5">7.5</option>
+      <option value="8">8</option>
+      <option value="8.5">8.5</option>
+      <option value="9">9</option>
+      <option value="9.5">9.5</option>
+      <option value="10">10</option>
+      <option value="10.5">10.5</option>
+      <option value="11">11</option>
+      <option value="11.5">11.5</option>
+      <option value="12">12</option>
+      <option value="12.5">12.5</option>
+      <option value="13">13</option>
+    </select>
+  </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="row " id="details">
+    <div class="col s12 ">
+      <ul class="tabs">
+        <li class="tab col s3"><a href="#test1">Details</a></li>
+        <li class="tab col s3"><a class="active" href="#test2">Features</a></li>
+        <li class="tab col s3"><a href="#test4">Size and Fit</a></li>
+      </ul>
+    </div>
+    <div id="test1" class="col s12 black-text">It's back and better than ever. Utilizing the new Zoom L.E.A.P. system, the 13 is designed to maximize explosiveness. Its sleek upper design and dynamic Flywire cables are lean and light, yet durable and strong — Just like LeBron.</div>
+    <div id="test2" class="col s12 black-text">
+      <ol>
+<li>Multi-density layers for lightweight comfort and support.</li>
+<li>Flywire cables extend from midfoot to wrap around your heel for lockdown.</li>
+<li>Zoom L.E.A.P. system enhances propulsion and responsiveness.</li>
+<li>Full-length Phylon for lightweight cushioning and stability.</li>
+<li>Four independent Zoom Air units on the forefoot for low-profile, flexible, and responsive cushioning.</li>
+<li>Two Zoom Air units located under the heel and first met head are 13mm thick for response.</li>
+</ol>
+</div>
+    <div id="test4" class="col s12 black-text">Fit Alert: Item runs true to size. Order your normal size</div>
+  </div>
+  <h4 class="black-text">Compare Prices From Different Sites</h4>
+        <table class="black-text" id="2">
+        <thead>
+          <tr>
+              <th data-field="Website">Website</th>
+              <th data-field="Shipping_Time">Shipping Time</th>
+              <th data-field="price">Price</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td><a href="index.html" class="black-text">Air Wave Max</a></td>
+            <td>1 day</td>
+            <td>$115.99</td>
+          </tr>
+          <tr>
+            <td><a href="http://www.eastbay.com/" class="black-text">EastBay</a></td>
+            <td>2 Weeks</td>
+            <td>$117</td>
+          </tr>
+          <tr>
+            <td><a href="http://www.champssports.com/" class="black-text">Champs</a></td>
+            <td>1 week</td>
+            <td>$118</td>
+          </tr>
+          <tr>
+            <td><a href="http://www.footlocker.com/" class="black-text">Footlocker</a></td>
+            <td>2.5 weeks</td>
+            <td>$128.50</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+   </div>
+
+  </div>
+  <footer class="page-footer black">
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m4">
+
+                <i class="medium material-icons">contacts</i> 
+                <p>Call us 1.800.256.9658</p>
+              </div>
+              <div class="col s12 m4">
+
+                <a href="contact.html"><i class="medium material-icons">email</i>
+                <p>Contact us</p></a> 
+              </div>
+              <div class="col s12 m4">
+
+                <a href="feedback.html"><i class="medium material-icons">feedback</i> 
+                <p>Leave us with some feedback!!</p></a>
+              </div>
+
+             
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2015 Air Wave Max
+            </div>
+          </div>
+        </footer>
+</nav>
+<script type="text/javascript" src="../simpleCart.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+    <script src="js/cart-conf.js"></script>
+  <script src="js/simpleCart.js"></script>
+</body>
+</html>
